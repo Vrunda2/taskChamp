@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Tasky
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tasky is a feature-rich task management and productivity app designed to help users efficiently manage their daily activities while engaging with a community through real-time chat and social feed features. Built with React & Firebase, Tasky features a Dark Black & Purple attractive user interface.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 🔑 Authentication
 
-### `npm start`
+- Login, Register, Change User
+- Includes Profile Image Upload
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📌 My Activity Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Task List: Manage tasks by setting priority (Easy, Medium, Hard), updating, and deleting tasks.
+- Add Task: Users can create tasks with different difficulty levels.
+- Streak Calendar: Tracks total working days to encourage consistency.
 
-### `npm test`
+### 📊 Dashboard
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Displays key features and quick access to user activities.
 
-### `npm run build`
+### 💬 Chat
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Real-time Chat: Users can communicate instantly with others.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📢 Post
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Feed: View posts from other users.
+- Create Post: Share updates and thoughts with the community.
+- Comment: Engage with posts by commenting.
 
-### `npm run eject`
+### 🏆 Leaderboard
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Shout-out to Top 3 users.
+- All Ranks: View rankings of all users.
+- Graphical Representation: Visual display of performance and rankings.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ℹ️ About Us
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Team Information
+- Technology Stack Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Built With
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React - Frontend framework for a dynamic UI.
+  
+- Tailwind CSS - Utility-first CSS framework for styling.
+  
+- Firebase & Firestore - Authentication, database, and cloud storage.
+  
+- Node Modules - Backend dependencies and functionality.
