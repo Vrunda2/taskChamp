@@ -1,0 +1,39 @@
+.tasklist {
+  padding: 10px 60px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  max-width: 900px;
+  position: relative;
+  border: 2px solid #9793ba;
+  background-color: #9793ba17;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.tasklist h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 20px;
+  width: 100%;
+
+  color: white;
+  text-align: center;
+}
+
+.tasklist_image {
+  height: 300px;
+  margin-top: -20px;
+  margin-bottom: -25px;
+  transition: transform 1s ease-in-out;
+}
+
+.tasklist_image:hover {
+  transform: scale(1.04);
+}
+
+.tasklistPara {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}

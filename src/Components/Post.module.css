@@ -1,0 +1,103 @@
+.flip_card {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: linear-gradient(to right, #6c5abe, rgba(162, 112, 232, 0.4));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  color: #563a9c98;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip_card:hover {
+  transform: rotateY(360deg);
+}
+
+.flip_card_comment {
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: #5c4cb0b7;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 2px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.flip_card_comment:hover {
+  transform: rotateY(360deg);
+}
+
+.post_outer {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-image: url("https://i.pinimg.com/originals/70/eb/0b/70eb0b53eb57c91db403928c5d02a19a.gif");
+}
+
+.post_inner {
+  border: 2px solid rgba(255, 255, 255, 0.298);
+  backdrop-filter: blur(180px);
+  transition: transform 1s ease-in-out;
+}
+
+.post_inner:hover {
+  transform: scale(1.03);
+}
+
+.liked_post {
+  background-color: #e3d2ffbb;
+  color: rgb(37, 7, 69);
+}
+
+.liked_post:hover {
+  background-color: #e3d2ffef;
+  color: rgb(37, 7, 69);
+}
+
+.not_liked_post {
+  color: white;
+  background-color: rgba(162, 112, 232, 0.367);
+}
+
+.not_liked_post:hover {
+  color: white;
+  background-color: rgba(162, 112, 232, 0.679);
+}
+
+.comment_div {
+  background-color: rgba(214, 193, 255, 0.125);
+  transition: transform 1s ease-in-out;
+}
+
+.comment_div:hover {
+  background-color: rgba(214, 193, 255, 0.2);
+  transform: scale(1.02);
+}
+
+.comment_input {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  color: #353253;
+}
+.comment_input::placeholder {
+  color: #77739f;
+}
+
+.comment_btn {
+  font-weight: 600;
+  background-color: #62559a !important;
+}
+
+.comment_btn:hover {
+  background-color: #504388 !important;
+}
