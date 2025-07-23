@@ -1,3 +1,5 @@
+Consider the taskybranch branch for final project
+
 # Tasky
 
 Tasky is a feature-rich task management and productivity app designed to help users efficiently manage their daily activities while engaging with a community through real-time chat and social feed features. Built with React & Firebase, Tasky features a Dark Black & Purple attractive user interface.
@@ -42,7 +44,8 @@ Tasky is a feature-rich task management and productivity app designed to help us
 
 ## 🛠️ Built With
 
-- React - Frontend framework for a dynamic UI.
+- React - Frontend framework for a dynamic UI...
+  
   
 - Tailwind CSS - Utility-first CSS framework for styling.
   
